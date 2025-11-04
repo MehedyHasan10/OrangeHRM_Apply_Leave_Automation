@@ -22,11 +22,11 @@ public class Hooks {
         getBrowser().waitForPageToLoad();
     }
 
-    @After
-    public void teardown() {
-        step("Quiting the browser");
-        if (AqualityServices.isBrowserStarted()) {
-            getBrowser().quit();
-        }
-    }
+//    @After
+//    public void teardown() {
+//        step("Quiting the browser");
+//        if (AqualityServices.isBrowserStarted()) {
+//            getBrowser().quit();
+//        }
+//    }
 }
